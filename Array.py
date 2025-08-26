@@ -123,18 +123,18 @@ print(zeroes(arr))
 
 
 # Missing number in sequence
-arr = [1,2,4,5,6,7]
-missing = 1
-for i in range(len(arr)):
-    for j in range(i+1,len(arr)):
-        if arr[i]+1 != arr[j]:
-            missing = arr[i]+1
-            break
-    if missing != 1:
-        break
+# arr = [1,2,4,5,6,7]
+# missing = 1
+# for i in range(len(arr)):
+#     for j in range(i+1,len(arr)):
+#         if arr[i]+1 != arr[j]:
+#             missing = arr[i]+1
+#             break
+#     if missing != 1:
+#         break
 
-if missing in arr:
-    missing = arr[-1]+1
+# if missing in arr:
+#     missing = arr[-1]+1
 
 
 
