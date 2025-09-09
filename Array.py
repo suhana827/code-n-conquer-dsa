@@ -107,19 +107,19 @@ print(reverse_nums)
 
 
 # Move zeros to end
-def zeroes(arr):
-    i = 0  
-    for j in range(len(arr)): 
-        if arr[j] != 0:
-            arr[i] = arr[j]
-            i += 1
-    while i < len(arr):
-        arr[i] = 0
-        i += 1
-    return arr
+# def zeroes(arr):
+#     i = 0  
+#     for j in range(len(arr)): 
+#         if arr[j] != 0:
+#             arr[i] = arr[j]
+#             i += 1
+#     while i < len(arr):
+#         arr[i] = 0
+#         i += 1
+#     return arr
 
-arr = [2, 0, 3, 4, 0, 1, 6, 7, 0]
-print(zeroes(arr))
+# arr = [2, 0, 3, 4, 0, 1, 6, 7, 0]
+# print(zeroes(arr))
 
 
 # Missing number in sequence
@@ -136,5 +136,11 @@ print(zeroes(arr))
 # if missing in arr:
 #     missing = arr[-1]+1
 
+
+# Given an array of integers nums and an integer target, return indices of 
+# the two numbers such that they add up to target.
+# Example 1:
+# Input: nums = [2,7,11,15], target = 9
+# Output: [0,1]
 
 
